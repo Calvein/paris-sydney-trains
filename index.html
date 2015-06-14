@@ -5,8 +5,13 @@
 <script src='http://127.0.0.1:35729/livereload.js'></script>
 <style>
 
+body {
+    margin: 0;
+}
+
 svg {
     border: 1px solid brown;
+    box-sizing: border-box;
 }
 
 path {
@@ -26,8 +31,7 @@ path {
 
 </style>
 <body>
-<svg data-map=paris></svg>
-<svg data-map=sydney></svg>
+<svg data-map=paris></svg><svg data-map=sydney></svg>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
