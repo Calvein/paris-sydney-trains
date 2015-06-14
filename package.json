@@ -1,0 +1,19 @@
+{
+  "name": "paris-sydney-trains",
+  "version": "1.0.0",
+  "description": "Map to compare the train/subways of Paris and Sydney",
+  "scripts": {
+    "start": "serveur -R"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calvein/paris-sydney-trains.git"
+  },
+  "homepage": "https://github.com/Calvein/paris-sydney-trains",
+  "devDependencies": {
+    "d3-dsv": "^0.1.3",
+    "lodash.uniq": "^3.2.1",
+    "topojson": "^1.6.19",
+    "turf-within": "^1.0.1"
+  }
+}
