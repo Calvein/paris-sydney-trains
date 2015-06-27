@@ -7,11 +7,22 @@
 
 body {
     margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    max-width: 900px;
+    margin: 20px auto;
 }
 
 svg {
     border: 1px solid brown;
     box-sizing: border-box;
+}
+
+svg + svg {
+    margin-left: -1px;
 }
 
 path {
@@ -31,6 +42,11 @@ path {
 
 </style>
 <body>
+<p>
+    Those maps are <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">voronoi</a>
+    representing the distance from each metro/train station in Paris and Sydney.<br>
+    Both maps are at the same scale.
+</p>
 <svg data-map=paris></svg><svg data-map=sydney></svg>
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>

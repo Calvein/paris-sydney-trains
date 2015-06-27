@@ -1,6 +1,6 @@
 'use strict';
 
-var width = 960
+var width = 950
 var height = 500
 
 
@@ -33,12 +33,6 @@ function showMap(city, center) {
             .attr('class', 'city')
             .attr('d', path)
 
-        // g.append('path')
-        //     .datum({
-        //         type: 'MultiPoint'
-        //       , coordinates: data
-        //     })
-        //     .attr('d', path)
 
         var circles = g.append('g')
             .attr('class', 'circles')
